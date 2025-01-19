@@ -22,7 +22,6 @@
 .hangman-draw{
 display: flex;
 justify-content: center;
-/* height: 300px; */
 height: 100%;
 }
 .the-draw{
@@ -167,7 +166,7 @@ width: 5px;
 
 .letters{
 width: 50%;
-height: 265px;
+/* height: 265px; */
     margin: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -446,7 +445,7 @@ width: 30px;
             -o-transform:translateY(-500px) ;
 }
 .resolved{
-    font-size: 35px;
+    font-size: 24px;
         width: 75%;
 }
 .resolved .bullets:nth-child(1),
@@ -474,7 +473,11 @@ width: 30px;
 .resolved .bullets:nth-child(4){
     animation-delay: 1.5s;
 }
-
+.answer{
+    font-size: 18px;
+        top: -12px;
+        left: -17px;
+}
 }
 @keyframes width{
     from{
